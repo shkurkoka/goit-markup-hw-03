@@ -179,8 +179,9 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     width: 500px;
-    margin-bottom: 48px;
     text-align: center;
+    padding-top: 188px;
+    margin: 0 auto 48px;
 }
 
 .hero-button{
@@ -196,6 +197,7 @@ img{
     padding: 16px 32px;
     color: #ffffff;
     background-color: #4d5ae5;
+    margin-bottom: 188px;
 }
 
 .hero-button:hover, .hero-button:focus{
@@ -209,6 +211,11 @@ img{
 .first-list-item{
     width: 264px;
     margin-right: 24px;
+}
+
+.second-title{
+    text-align: center;
+    margin-bottom: 72px;
 }
 
 .second-list-item{
@@ -266,8 +273,13 @@ img{
 
 .card-list-item{
     background-color: #FFFFFF;
+    width: 360px;
     margin-right: 24px;
     margin-bottom: 48px;
+}
+
+.card-list-item:nth-child(3n + 3){
+    margin-right: 0;
 }
 
 .card-bottom{
