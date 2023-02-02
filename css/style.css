@@ -252,10 +252,15 @@ img{
 
 
 
+
+.services{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .filters-list{
     justify-content: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     gap: 24px;
 }
 
